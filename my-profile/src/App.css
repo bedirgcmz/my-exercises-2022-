@@ -1,38 +1,68 @@
-.App {
+/* Header css  */
+.header {
+  height: 9rem;
+  /* border-bottom: 11px solid #540b0e; */
+  border-radius: 0 0 25px 25px;
+  /* color: #540b0e; */
+  position: relative;
+  /* background-color: #540b0e61; */
+  font-family: "Finlandica", sans-serif;
+}
+
+.profile-img {
+  /* background-color: #540b0e; */
+  box-shadow: rgb(231 224 224) 0px 2px 4px, rgb(234 227 227) 0px 7px 13px -3px,
+    rgb(240 235 235 / 0%) 0px -3px 0px inset;
+}
+.info p {
+  font-size: 0.8rem;
+}
+
+.slogan {
+  position: absolute;
+  top: 20px;
+  right: 8%;
+  font-family: "Courgette", cursive;
+  font-size: 2rem;
+}
+
+.links {
+  position: absolute;
+  bottom: -2px;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+  width: 120px;
+  font-size: 0.8rem;
   text-align: center;
+  border-radius: 10px 10px 0 0;
+  height: 32px;
+  line-height: 35px;
+  font-weight: 600;
+  margin-left: 24px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Color button css */
+.color-button {
+  position: absolute;
+  right: 0;
+  top: 100;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.box {
+  width: 20px;
+  height: 20px;
+  background-color: blueviolet;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.color-change-container {
+  position: absolute;
+  left: 0;
+  top: 200px;
 }
-
-.App-link {
-  color: #61dafb;
+.color-change-container button {
+  border-radius: 0 10px 10px 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.color-change-container button:hover {
+  opacity: 0.8;
 }
