@@ -39,11 +39,11 @@ export default function App() {
     setBorderBottom("br-btm-dark-orange");
   };
 
-  const getColorMor = () => {
-    setBackgroundOpc("bg-opc-dark-blue");
-    setBackgroundDark("bg-dark-blue");
-    setColor("cl-dark-blue");
-    setBorderBottom("br-btm-dark-blue");
+  const getColorPurple = () => {
+    setBackgroundOpc("bg-opc-dark-purple");
+    setBackgroundDark("bg-dark-purple");
+    setColor("cl-dark-purple");
+    setBorderBottom("br-btm-dark-purple");
   };
   return (
     <div className="bg">
@@ -77,10 +77,10 @@ export default function App() {
         <div style={{ minHeight: "120px" }}>
           <div className="collapse collapse-horizontal" id="collapseWidthExample">
             <div className="card card-body p-2">
-              <span onClick={getColorBlue} className="box"></span> <br />
-              <span onClick={getColorBrown} className="box"></span> <br />
-              <span onClick={getColorOrange} className="box"></span> <br />
-              <span onClick={getColorMor} className="box"></span> <br />
+              <span onClick={getColorBlue} className="box-blue"></span> <br />
+              <span onClick={getColorBrown} className="box-brown"></span> <br />
+              <span onClick={getColorOrange} className="box-orange"></span> <br />
+              <span onClick={getColorPurple} className="box-purple"></span> <br />
             </div>
           </div>
         </div>

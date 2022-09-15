@@ -1,11 +1,8 @@
 /* Header css  */
 .header {
-  height: 9rem;
-  /* border-bottom: 11px solid #540b0e; */
+  height: 10.4rem;
   border-radius: 0 0 25px 25px;
-  /* color: #540b0e; */
   position: relative;
-  /* background-color: #540b0e61; */
   font-family: "Finlandica", sans-serif;
 }
 
@@ -19,16 +16,16 @@
 }
 
 .slogan {
-  position: absolute;
+  /* position: absolute;
   top: 20px;
-  right: 8%;
+  right: 8%; */
   font-family: "Courgette", cursive;
   font-size: 2rem;
 }
 
 .links {
-  position: absolute;
-  bottom: -2px;
+  /* position: absolute;
+  bottom: -2px; */
 }
 
 .links a {
@@ -44,16 +41,62 @@
   margin-left: 24px;
 }
 
+/* Header Responsive */
+
+@media only screen and (max-width: 768px) {
+  .header {
+    height: 14rem;
+    padding: 5px !important;
+  }
+  .img-info-slogan {
+    flex-direction: column;
+  }
+  .slogan {
+    top: 146px;
+    right: 10%;
+    font-size: 1.2rem;
+    margin-top: 15px;
+  }
+  .links {
+    justify-content: center !important;
+  }
+  .links a {
+    font-size: 0.6rem;
+    width: 82px;
+    height: 26px;
+    line-height: 28px;
+    margin: 3px;
+  }
+  .color-change-container {
+    top: 240px !important;
+  }
+}
+
 /* Color button css */
 .color-button {
   position: absolute;
   right: 0;
   top: 100;
 }
-.box {
+.box-blue {
   width: 20px;
   height: 20px;
-  background-color: blueviolet;
+  background-color: #003f88;
+}
+.box-brown {
+  width: 20px;
+  height: 20px;
+  background-color: #540b0e;
+}
+.box-orange {
+  width: 20px;
+  height: 20px;
+  background-color: #ff5400;
+}
+.box-purple {
+  width: 20px;
+  height: 20px;
+  background-color: #5f0f40;
 }
 .color-change-container {
   position: absolute;

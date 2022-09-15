@@ -65,14 +65,28 @@ code {
 
 /* Orange */
 .bg-dark-orange {
-  background-color: #ff5400;
+  background-color: #dc2f02;
 }
 .bg-opc-dark-orange {
-  background-color: #ff540063;
+  background-color: #dc2f0263;
 }
 .cl-dark-orange {
-  color: #ff5400;
+  color: #dc2f02;
 }
 .br-btm-dark-orange {
-  border-bottom: 11px solid #ff5400;
+  border-bottom: 11px solid #dc2f02;
+}
+
+/* Purple */
+.bg-dark-purple {
+  background-color: #9a031e;
+}
+.bg-opc-dark-purple {
+  background-color: #9a031e63;
+}
+.cl-dark-purple {
+  color: #9a031e;
+}
+.br-btm-dark-purple {
+  border-bottom: 11px solid #9a031e;
 }
