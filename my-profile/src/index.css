@@ -48,6 +48,15 @@ code {
 .br-btm-dark-brown {
   border-bottom: 11px solid #540b0e;
 }
+.br-top-dark-brown {
+  border-top: 11px solid #540b0e;
+}
+.br-right-dark-brown {
+  border-right: 11px solid #540b0e;
+}
+.br-left-dark-brown {
+  border-left: 11px solid #540b0e;
+}
 
 /* Blue */
 .bg-dark-blue {
@@ -59,8 +68,18 @@ code {
 .cl-dark-blue {
   color: #003f88;
 }
+/*******/
 .br-btm-dark-blue {
   border-bottom: 11px solid #003f88;
+}
+.br-top-dark-blue {
+  border-top: 11px solid #003f88;
+}
+.br-right-dark-blue {
+  border-right: 11px solid #003f88;
+}
+.br-left-dark-blue {
+  border-left: 11px solid #003f88;
 }
 
 /* Orange */
@@ -73,8 +92,18 @@ code {
 .cl-dark-orange {
   color: #dc2f02;
 }
+/*******/
 .br-btm-dark-orange {
   border-bottom: 11px solid #dc2f02;
+}
+.br-top-dark-orange {
+  border-top: 11px solid #dc2f02;
+}
+.br-right-dark-orange {
+  border-right: 11px solid #dc2f02;
+}
+.br-left-dark-orange {
+  border-left: 11px solid #dc2f02;
 }
 
 /* Purple */
@@ -89,4 +118,13 @@ code {
 }
 .br-btm-dark-purple {
   border-bottom: 11px solid #9a031e;
+}
+.br-top-dark-purple {
+  border-top: 11px solid #9a031e;
+}
+.br-right-dark-purple {
+  border-right: 11px solid #9a031e;
+}
+.br-left-dark-purple {
+  border-left: 11px solid #9a031e;
 }

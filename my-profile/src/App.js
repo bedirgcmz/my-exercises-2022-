@@ -10,6 +10,9 @@ export default function App() {
   const [bacgroundDark, setBackgroundDark] = useState("bg-dark-brown");
   const [color, setColor] = useState("cl-dark-brown");
   const [borderBottom, setBorderBottom] = useState("br-btm-dark-brown");
+  const [borderTop, setBorderTop] = useState("br-top-dark-brown");
+  const [borderLeft, setBorderLeft] = useState("br-left-dark-brown");
+  const [borderRight, setBorderRight] = useState("br-right-dark-brown");
 
   const getColor = () => {
     if (colorButton) {
@@ -23,6 +26,9 @@ export default function App() {
     setBackgroundDark("bg-dark-blue");
     setColor("cl-dark-blue");
     setBorderBottom("br-btm-dark-blue");
+    setBorderTop("br-top-dark-blue");
+    setBorderLeft("br-left-dark-blue");
+    setBorderRight("br-right-dark-blue");
   };
 
   const getColorBrown = () => {
@@ -30,6 +36,9 @@ export default function App() {
     setBackgroundDark("bg-dark-brown");
     setColor("cl-dark-brown");
     setBorderBottom("br-btm-dark-brown");
+    setBorderTop("br-top-dark-brown");
+    setBorderLeft("br-left-dark-brown");
+    setBorderRight("br-right-dark-brown");
   };
 
   const getColorOrange = () => {
@@ -37,6 +46,9 @@ export default function App() {
     setBackgroundDark("bg-dark-orange");
     setColor("cl-dark-orange");
     setBorderBottom("br-btm-dark-orange");
+    setBorderTop("br-top-dark-orange");
+    setBorderLeft("br-left-dark-orange");
+    setBorderRight("br-right-dark-orange");
   };
 
   const getColorPurple = () => {
@@ -44,6 +56,9 @@ export default function App() {
     setBackgroundDark("bg-dark-purple");
     setColor("cl-dark-purple");
     setBorderBottom("br-btm-dark-purple");
+    setBorderTop("br-top-dark-purple");
+    setBorderLeft("br-left-dark-purple");
+    setBorderRight("br-right-dark-purple");
   };
   return (
     <div className="bg">
@@ -57,7 +72,13 @@ export default function App() {
           setBorderBottom={setBorderBottom}
           bacgroundDark={bacgroundDark}
         />
-        <AnimationRoutes />
+        <AnimationRoutes
+          borderTop={borderTop}
+          borderBottom={borderBottom}
+          borderLeft={borderLeft}
+          borderRight={borderRight}
+          color={color}
+        />
       </Router>
       <div className="color-change-container">
         <p>

@@ -31,7 +31,7 @@ const Education = () => {
 
   return (
     <motion.div
-      className="education"
+      className="education w-75"
       variants={variants2}
       initial="fadeIn"
       animate="inactive"
@@ -42,14 +42,7 @@ const Education = () => {
       // intial={{ width: 0 }}
       // animate={{ width: "100%" }}
       // exit={{ y: window.innerWidth, transition: { duration: 1.5 } }}
-    >
-      <p>x: window.innerWidth, transition: </p>
-      <p>x: window.innerWidth, transition: </p>
-      <p>x: window.innerWidth, transition: </p>
-      <p>x: window.innerWidth, transition: </p>
-      <p>x: window.innerWidth, transition: </p>
-      <p>x: window.innerWidth, transition: </p>
-    </motion.div>
+    ></motion.div>
   );
 };
 

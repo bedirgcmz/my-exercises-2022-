@@ -109,3 +109,43 @@
 .color-change-container button:hover {
   opacity: 0.8;
 }
+
+/* About me */
+.about-me h1 {
+  width: 100%;
+  margin-left: auto;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.about-me-text {
+  text-align: justify;
+  padding: 5px;
+}
+#about-me-info-container {
+  height: 285px;
+  width: 100%;
+  position: relative;
+  padding: 20px;
+  margin-left: auto;
+}
+#about-me-info-container img {
+  float: left;
+  margin: 0 15px 15px 0;
+  border-radius: 20px;
+  width: 190px;
+}
+#border-left {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+#border-right {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  bottom: 50%;
+  right: 0;
+}
