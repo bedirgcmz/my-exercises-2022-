@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Header from "./components/Header";
 import AnimationRoutes from "./components/AnimationRoutes";
 import "./App.css";
+import Footer from "./components/Footer";
 
 export default function App() {
   const [colorButton, setColorButton] = useState(true);
@@ -65,11 +66,8 @@ export default function App() {
       <Router>
         <Header
           bacgroundOpc={bacgroundOpc}
-          setBackgroundOpc={setBackgroundOpc}
           color={color}
-          setColor={setColor}
           borderBottom={borderBottom}
-          setBorderBottom={setBorderBottom}
           bacgroundDark={bacgroundDark}
         />
         <AnimationRoutes
@@ -106,6 +104,7 @@ export default function App() {
           </div>
         </div>
       </div>
+      <Footer color={color} bacgroundDark={bacgroundDark} />
     </div>
   );
 }

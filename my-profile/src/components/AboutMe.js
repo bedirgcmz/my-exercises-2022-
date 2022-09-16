@@ -53,8 +53,6 @@ const AboutMe = ({ borderTop, borderBottom, borderLeft, borderRight, color }) =>
           back-end disciplines. I am very keen to learn new technologies and especially artificial
           intelligence. <em>I count myself as very flexible and agile in teamwork.</em>
         </p>
-        {/* <div id="border-top"></div>
-        <div id="border-bottom"></div> */}
       </div>
     </motion.div>
   );

@@ -158,3 +158,16 @@
     align-items: center;
   }
 }
+
+/* Footer css */
+.footer {
+  height: 170px;
+  width: 100%;
+  margin-top: 60px;
+}
+.social-media {
+  font-size: 0.9rem;
+}
+.github-linkedin a:hover {
+  color: gray !important;
+}
