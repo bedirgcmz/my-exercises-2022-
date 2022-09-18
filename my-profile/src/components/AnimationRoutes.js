@@ -36,16 +36,7 @@ const AnimationRoutes = ({
         <Route
           exact
           path="/skills-hobbies"
-          element={
-            <SkillsHobbies
-              bacgroundOpc={bacgroundOpc}
-              borderTop={borderTop}
-              borderBottom={borderBottom}
-              borderLeft={borderLeft}
-              borderRight={borderRight}
-              color={color}
-            />
-          }
+          element={<SkillsHobbies bacgroundOpc={bacgroundOpc} color={color} />}
         />
       </Routes>
     </AnimatePresence>

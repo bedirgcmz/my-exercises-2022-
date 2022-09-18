@@ -2,14 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import "./progress.css";
 
-const SkillsHobbies = ({
-  bacgroundOpc,
-  borderTop,
-  borderBottom,
-  borderLeft,
-  borderRight,
-  color,
-}) => {
+const SkillsHobbies = ({ bacgroundOpc, color }) => {
   const variants2 = {
     fadeIn: {
       y: 100,

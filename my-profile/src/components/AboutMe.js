@@ -37,7 +37,7 @@ const AboutMe = ({ borderTop, borderBottom, borderLeft, borderRight, color }) =>
       animate="inactive"
       exit="fadeOut"
     >
-      <h1 className={`${color}`}>About Me</h1>
+      <h2 className={`${color}`}>About Me</h2>
       <div id="about-me-info-container">
         <div id="border-left" className={`${borderLeft} ${borderBottom}`}></div>
         <div id="border-right" className={`${borderRight} ${borderTop}`}></div>
@@ -53,6 +53,61 @@ const AboutMe = ({ borderTop, borderBottom, borderLeft, borderRight, color }) =>
           back-end disciplines. I am very keen to learn new technologies and especially artificial
           intelligence. <em>I count myself as very flexible and agile in teamwork.</em>
         </p>
+      </div>
+      <div className="languages row mt-4">
+        <h2 className={`${color} mb-3`}>Languages</h2>
+        <div class="progress">
+          <div
+            class="progress-bar bg-success"
+            role="progressbar"
+            aria-label="Success example"
+            style={{ width: "100%" }}
+            aria-valuenow="25"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            Kurdis
+          </div>
+        </div>
+        <div class="progress">
+          <div
+            class="progress-bar bg-info"
+            role="progressbar"
+            aria-label="Info example"
+            style={{ width: "1000%" }}
+            aria-valuenow="50"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            Turkish
+          </div>
+        </div>
+        <div class="progress">
+          <div
+            class="progress-bar bg-warning"
+            role="progressbar"
+            aria-label="Warning example"
+            style={{ width: "25%" }}
+            aria-valuenow="75"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            Swedish
+          </div>
+        </div>
+        <div class="progress">
+          <div
+            class="progress-bar bg-danger"
+            role="progressbar"
+            aria-label="Danger example"
+            style={{ width: "30%" }}
+            aria-valuenow="100"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            English
+          </div>
+        </div>
       </div>
     </motion.div>
   );
