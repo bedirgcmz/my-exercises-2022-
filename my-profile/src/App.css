@@ -203,3 +203,13 @@
     border-bottom: 2px solid white;
   }
 }
+
+/* Skill$Hobbies responsive */
+@media only screen and (max-width: 768px) {
+  .skills-container h2 {
+    text-align: center;
+  }
+  .hobbies-container h2 {
+    text-align: center;
+  }
+}

@@ -6,7 +6,14 @@ import { AnimatePresence } from "framer-motion";
 import WorkExperiance from "./WorkExperiance";
 import SkillsHobbies from "./SkillsHobbies";
 
-const AnimationRoutes = ({ borderTop, borderBottom, borderLeft, borderRight, color }) => {
+const AnimationRoutes = ({
+  bacgroundOpc,
+  borderTop,
+  borderBottom,
+  borderLeft,
+  borderRight,
+  color,
+}) => {
   const location = useLocation();
   return (
     <AnimatePresence>
@@ -26,7 +33,20 @@ const AnimationRoutes = ({ borderTop, borderBottom, borderLeft, borderRight, col
         />
         <Route exact path="/education" element={<Education />} />
         <Route exact path="/work-experience" element={<WorkExperiance />} />
-        <Route exact path="/skills-hobbies" element={<SkillsHobbies />} />
+        <Route
+          exact
+          path="/skills-hobbies"
+          element={
+            <SkillsHobbies
+              bacgroundOpc={bacgroundOpc}
+              borderTop={borderTop}
+              borderBottom={borderBottom}
+              borderLeft={borderLeft}
+              borderRight={borderRight}
+              color={color}
+            />
+          }
+        />
       </Routes>
     </AnimatePresence>
   );

@@ -71,6 +71,7 @@ export default function App() {
           bacgroundDark={bacgroundDark}
         />
         <AnimationRoutes
+          bacgroundOpc={bacgroundOpc}
           borderTop={borderTop}
           borderBottom={borderBottom}
           borderLeft={borderLeft}
