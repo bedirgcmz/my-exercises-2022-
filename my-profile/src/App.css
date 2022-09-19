@@ -115,9 +115,12 @@
 /* About me */
 .about-me h2 {
   width: 100%;
-  margin-left: auto;
+  /* margin-left: auto; */
   margin-top: 15px;
   margin-bottom: 10px;
+}
+.about-me i {
+  font-size: 1.5rem;
 }
 .about-me-text {
   text-align: justify;
@@ -223,4 +226,23 @@
   .hobbies-container h2 {
     text-align: center;
   }
+}
+
+/* Edıcations */
+.fa-thumbtack {
+  top: -14px;
+  left: 13px;
+  rotate: 27deg;
+  z-index: 9999;
+  color: #ffc107;
+}
+.fa-building {
+  padding-left: 0.3rem;
+}
+.education .card {
+  background-color: #adacac24 !important;
+}
+.education .date {
+  border-radius: 10px;
+  color: white;
 }

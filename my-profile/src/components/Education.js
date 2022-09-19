@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Education = () => {
+const Education = ({ bacgroundOpc, color }) => {
   const variants2 = {
     fadeIn: {
       y: 100,
@@ -31,18 +31,51 @@ const Education = () => {
 
   return (
     <motion.div
-      className="education w-75"
+      className="education w-75 mx-auto mt-4 row"
       variants={variants2}
       initial="fadeIn"
       animate="inactive"
       exit="fadeOut"
-      // // initial={{ x: 300, opacity: 0 }}
-      // // animate={{ x: 0, opacity: 1 }}
-      // // exit={{ x: -300, opacity: 0 }}
-      // intial={{ width: 0 }}
-      // animate={{ width: "100%" }}
-      // exit={{ y: window.innerWidth, transition: { duration: 1.5 } }}
-    ></motion.div>
+    >
+      <h2 className={`${color} mb-4`}>Educations</h2>
+      <div className={`${color} education-card col-md-6 col-sm-12 mb-4 position-relative`}>
+        <i className="fa-solid fa-thumbtack fs-4 position-absolute"></i>
+        <div className="card">
+          <h5 className="card-header">
+            <i className="fa-solid fa-building pe-3"></i> HiCoders
+          </h5>
+          <div className="card-body">
+            <h5 className="card-title">
+              <i className="fa-solid fa-laptop-code pe-3"></i>Full Stack Web Developer
+            </h5>
+            <p className="card-text">
+              I had an enjoyable education process that lasted 11 months. I learned a lot from this
+              training.
+            </p>
+            <span className={`${bacgroundOpc} date py-1 px-2`}>14.08.2021 - 02.07.2021</span>
+          </div>
+        </div>
+      </div>
+      <div className={`${color} education-card col-md-6 col-sm-12 mb-4 position-relative`}>
+        <i className="fa-solid fa-thumbtack fs-4 position-absolute"></i>
+        <div className="card">
+          <h5 className="card-header">
+            <i className="fa-solid fa-building pe-3"></i> Canakkale Onsekiz Mart Unv.
+          </h5>
+          <div className="card-body">
+            <h5 className="card-title">
+              <i className="fa-solid fa-person-chalkboard pe-3"></i>Primary School Graduate
+            </h5>
+            <p className="card-text">
+              I received 2 years of postgraduate education. I completed my thesis research on "The
+              effect of the debate technique in the primary school 4th-grade social sciences course
+              on the coursesuccess and critical thinking".
+            </p>
+            <span className={`${bacgroundOpc} date py-1 px-2`}>15.09.2014 - 23.07.2016</span>
+          </div>
+        </div>
+      </div>
+    </motion.div>
   );
 };
 

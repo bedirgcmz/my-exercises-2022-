@@ -37,7 +37,9 @@ const AboutMe = ({ borderTop, borderBottom, borderLeft, borderRight, color }) =>
       animate="inactive"
       exit="fadeOut"
     >
-      <h2 className={`${color}`}>About Me</h2>
+      <h2 className={`${color}`}>
+        <span>About Me</span> <i className="fa-regular fa-address-card ms-3"></i>
+      </h2>
       <div id="about-me-info-container">
         <div id="border-left" className={`${borderLeft} ${borderBottom}`}></div>
         <div id="border-right" className={`${borderRight} ${borderTop}`}></div>
@@ -54,8 +56,11 @@ const AboutMe = ({ borderTop, borderBottom, borderLeft, borderRight, color }) =>
           intelligence. <em>I count myself as very flexible and agile in teamwork.</em>
         </p>
       </div>
-      <div className="languages row mt-4">
-        <h2 className={`${color} mb-3`}>Languages</h2>
+      <hr className="w-100" />
+      <div className="languages mt-4 ">
+        <h2 className={`${color} mb-3 text-start`}>
+          <span>Languages</span> <i className="fa-solid fa-language ms-3"></i>
+        </h2>
         <div class="progress">
           <div
             class="progress-bar bg-success"
@@ -74,7 +79,7 @@ const AboutMe = ({ borderTop, borderBottom, borderLeft, borderRight, color }) =>
             class="progress-bar bg-info"
             role="progressbar"
             aria-label="Info example"
-            style={{ width: "1000%" }}
+            style={{ width: "100%" }}
             aria-valuenow="50"
             aria-valuemin="0"
             aria-valuemax="100"
