@@ -61,9 +61,9 @@ const AboutMe = ({ borderTop, borderBottom, borderLeft, borderRight, color }) =>
         <h2 className={`${color} mb-3 text-start`}>
           <span>Languages</span> <i className="fa-solid fa-language ms-3"></i>
         </h2>
-        <div class="progress">
+        <div className="progress">
           <div
-            class="progress-bar bg-success"
+            className="progress-bar bg-success"
             role="progressbar"
             aria-label="Success example"
             style={{ width: "100%" }}
@@ -74,9 +74,9 @@ const AboutMe = ({ borderTop, borderBottom, borderLeft, borderRight, color }) =>
             Kurdis
           </div>
         </div>
-        <div class="progress">
+        <div className="progress">
           <div
-            class="progress-bar bg-info"
+            className="progress-bar bg-info"
             role="progressbar"
             aria-label="Info example"
             style={{ width: "100%" }}
@@ -87,9 +87,9 @@ const AboutMe = ({ borderTop, borderBottom, borderLeft, borderRight, color }) =>
             Turkish
           </div>
         </div>
-        <div class="progress">
+        <div className="progress">
           <div
-            class="progress-bar bg-warning"
+            className="progress-bar bg-warning"
             role="progressbar"
             aria-label="Warning example"
             style={{ width: "25%" }}
@@ -100,9 +100,9 @@ const AboutMe = ({ borderTop, borderBottom, borderLeft, borderRight, color }) =>
             Swedish
           </div>
         </div>
-        <div class="progress">
+        <div className="progress">
           <div
-            class="progress-bar bg-danger"
+            className="progress-bar bg-danger"
             role="progressbar"
             aria-label="Danger example"
             style={{ width: "30%" }}

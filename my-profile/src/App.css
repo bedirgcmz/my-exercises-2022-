@@ -127,7 +127,7 @@
   padding: 5px;
 }
 #about-me-info-container {
-  /* height: 285px; */
+  min-height: 200px;
   width: 100%;
   position: relative;
   padding: 20px;
@@ -245,7 +245,7 @@
 .education .date {
   border-radius: 10px;
   color: white;
-  max-width: 187px;
+  max-width: fit-content;
 }
 .education .card-body {
   min-height: 250px;
@@ -261,5 +261,5 @@
 .work-experience .date {
   border-radius: 10px;
   color: white;
-  max-width: 187px;
+  max-width: fit-content;
 }

@@ -83,15 +83,15 @@ export default function App() {
         <p>
           <button
             onClick={getColor}
-            class={`${bacgroundDark} text-white btn`}
+            className={`${bacgroundDark} text-white btn`}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseWidthExample"
             aria-expanded="false"
             aria-controls="collapseWidthExample"
           >
-            {!colorButton && <i class="fa-solid fa-angles-left"></i>}
-            {colorButton && <i class="fa-solid fa-angles-right"></i>}
+            {!colorButton && <i className="fa-solid fa-angles-left"></i>}
+            {colorButton && <i className="fa-solid fa-angles-right"></i>}
           </button>
         </p>
         <div style={{ minHeight: "120px" }}>

@@ -47,7 +47,7 @@ const WorkExperiance = ({ bacgroundOpc, color }) => {
           </h5>
           <div className="card-body d-flex flex-column justify-content-between">
             <h5 className="card-title">
-              <i className="fa-solid fa-laptop-code pe-3"></i>Student Coaching
+              <i className="fa-solid fa-people-group pe-3"></i>tudent Coaching
             </h5>
             <p className="card-text">
               Student coaching, motivation, guidance, preparing a study program, homework follow-up,
@@ -65,7 +65,7 @@ const WorkExperiance = ({ bacgroundOpc, color }) => {
           </h5>
           <div className="card-body d-flex flex-column justify-content-between">
             <h5 className="card-title">
-              <i className="fa-solid fa-people-group pe-3"></i>Primary School Teaching
+              <i class="fa-solid fa-school pe-3"></i>Primary School Teaching
             </h5>
             <p className="card-text">
               Classroom management, lecture, student follow-up, homework follow-up, teaching
@@ -83,7 +83,7 @@ const WorkExperiance = ({ bacgroundOpc, color }) => {
           </h5>
           <div className="card-body d-flex flex-column justify-content-between">
             <h5 className="card-title">
-              <i className="fa-solid fa-people-group pe-3"></i>Primary School Teaching
+              <i class="fa-solid fa-school pe-3"></i>Primary School Teaching
             </h5>
             <p className="card-text">
               Classroom management, lecture, student follow-up, homework follow-up, teaching
