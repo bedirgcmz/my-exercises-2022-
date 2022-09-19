@@ -38,9 +38,9 @@ const SkillsHobbies = ({ bacgroundOpc, color }) => {
       className="skills-hobbies-container w-75 m-auto mt-4"
     >
       <div className="skills-container">
-        <h3 className={`${color} mb-4`}>
-          SKILLS <i class="fa-solid fa-user-gear ms-3"></i>
-        </h3>
+        <h2 className={`${color} mb-4`}>
+          Skills <i class="fa-solid fa-user-gear ms-3"></i>
+        </h2>
         <div class="dashboard row">
           <div className="col-md-4 col-lg-2 col-sm-6 col-xs-12 d-flex justify-content-center mb-2">
             <div className="skill-and-name ">
@@ -92,7 +92,7 @@ const SkillsHobbies = ({ bacgroundOpc, color }) => {
       <hr />
       <div className="hobbies-container">
         <h2 className={`${color} mb-4`}>
-          HOBBIES <i class="fas fa-thumbs-up ms-3"></i>
+          Hobbies <i class="fas fa-thumbs-up ms-3"></i>
         </h2>
         <div class="dashboard row">
           <div className="col-md-4 col-lg-2 col-sm-6 col-xs-12 d-flex justify-content-center mb-2">

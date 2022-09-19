@@ -36,7 +36,11 @@ const AnimationRoutes = ({
           path="/education"
           element={<Education color={color} bacgroundOpc={bacgroundOpc} />}
         />
-        <Route exact path="/work-experience" element={<WorkExperiance />} />
+        <Route
+          exact
+          path="/work-experience"
+          element={<WorkExperiance color={color} bacgroundOpc={bacgroundOpc} />}
+        />
         <Route
           exact
           path="/skills-hobbies"

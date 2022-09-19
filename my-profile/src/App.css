@@ -245,4 +245,21 @@
 .education .date {
   border-radius: 10px;
   color: white;
+  max-width: 187px;
+}
+.education .card-body {
+  min-height: 250px;
+}
+
+/* Work Experience */
+.work-experience .card-body {
+  min-height: 180px;
+}
+.work-experience .card {
+  background-color: #adacac24 !important;
+}
+.work-experience .date {
+  border-radius: 10px;
+  color: white;
+  max-width: 187px;
 }
