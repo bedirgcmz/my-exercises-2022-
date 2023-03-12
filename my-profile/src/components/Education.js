@@ -54,7 +54,7 @@ const Education = ({ bacgroundOpc, color }) => {
               I had an enjoyable education process that lasted 11 months. I learned a lot from this
               training.
             </p>
-            <span className={`${bacgroundOpc} date py-1 px-2`}>14.08.2021 - 02.07.2021</span>
+            <span className={`${bacgroundOpc} date py-1 px-2`}>14.08.2021 - 02.07.2022</span>
           </div>
         </div>
       </div>

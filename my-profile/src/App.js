@@ -97,10 +97,10 @@ export default function App() {
         <div style={{ minHeight: "120px" }}>
           <div className="collapse collapse-horizontal" id="collapseWidthExample">
             <div className="card card-body p-2">
-              <span onClick={getColorBlue} className="box-blue"></span> <br />
-              <span onClick={getColorBrown} className="box-brown"></span> <br />
-              <span onClick={getColorOrange} className="box-orange"></span> <br />
-              <span onClick={getColorPurple} className="box-purple"></span> <br />
+              <span onClick={getColorBlue} className="color-box box-blue"></span> <br />
+              <span onClick={getColorBrown} className="color-box box-brown"></span> <br />
+              <span onClick={getColorOrange} className="color-box box-orange"></span> <br />
+              <span onClick={getColorPurple} className="color-box box-purple"></span> <br />
             </div>
           </div>
         </div>

@@ -63,7 +63,7 @@ const AboutMe = ({ borderTop, borderBottom, borderLeft, borderRight, color }) =>
         </h2>
         <div className="progress">
           <div
-            className="progress-bar bg-success"
+            className="progress-bar kurdish"
             role="progressbar"
             aria-label="Success example"
             style={{ width: "100%" }}
@@ -76,7 +76,7 @@ const AboutMe = ({ borderTop, borderBottom, borderLeft, borderRight, color }) =>
         </div>
         <div className="progress">
           <div
-            className="progress-bar bg-info"
+            className="progress-bar turkish"
             role="progressbar"
             aria-label="Info example"
             style={{ width: "100%" }}
@@ -89,7 +89,7 @@ const AboutMe = ({ borderTop, borderBottom, borderLeft, borderRight, color }) =>
         </div>
         <div className="progress">
           <div
-            className="progress-bar bg-warning"
+            className="progress-bar swedish"
             role="progressbar"
             aria-label="Warning example"
             style={{ width: "25%" }}
@@ -102,7 +102,7 @@ const AboutMe = ({ borderTop, borderBottom, borderLeft, borderRight, color }) =>
         </div>
         <div className="progress">
           <div
-            className="progress-bar bg-danger"
+            className="progress-bar english"
             role="progressbar"
             aria-label="Danger example"
             style={{ width: "30%" }}

@@ -8,11 +8,22 @@ svg {
   height: 85px;
   margin: 0.2rem 0.5rem 0 0.5rem;
 }
-
+.kurdish {
+  background-color: #7db9b6 !important;
+}
+.turkish {
+  background-color: #66cd9d !important;
+}
+.swedish {
+  background-color: #efcb61 !important;
+}
+.english {
+  background-color: #e57d87 !important;
+}
 .bgr {
   fill: none;
   stroke-width: 10px;
-  stroke: #1a2c34;
+  stroke: #41464b80;
 }
 
 .skill-and-name {
@@ -46,63 +57,99 @@ svg {
 .meter-1 {
   stroke-dasharray: 360;
   stroke-dashoffset: 193;
-  stroke: #00f5d4;
+  stroke: #82ecde;
   animation: progress-1 1s ease-out;
 }
 .meter-2 {
-  stroke: #70e000;
+  stroke: #bdf08a;
   stroke-dasharray: 360;
   stroke-dashoffset: 205;
   animation: progress-2 0.75s ease-out;
 }
 .meter-3 {
-  stroke: #613dc1;
+  stroke: #9b80e3;
   stroke-dasharray: 360;
   stroke-dashoffset: 210;
   animation: progress-3 0.5s ease-out;
 }
 
 .meter-4 {
-  stroke: #fee440;
+  stroke: #f3e58c;
   stroke-dasharray: 360;
   stroke-dashoffset: 225;
   animation: progress-3 0.5s ease-out;
 }
 
 .meter-5 {
-  stroke: #2d00f7;
+  stroke: #aa99f4;
   stroke-dasharray: 360;
   stroke-dashoffset: 225;
   animation: progress-3 0.5s ease-out;
 }
-
-.meter-10 {
+.meter-6 {
+  stroke: #f19c87;
   stroke-dasharray: 360;
-  stroke-dashoffset: 200;
-  stroke: #00f5d4;
-  animation: progress-1 1s ease-out;
+  stroke-dashoffset: 240;
+  animation: progress-3 0.5s ease-out;
+}
+.meter-7 {
+  stroke: #76dfb3;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 240;
+  animation: progress-3 0.5s ease-out;
+}
+.meter-8 {
+  stroke: #97e8f1;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 290;
+  animation: progress-3 0.5s ease-out;
+}
+.meter-9 {
+  stroke: #ebba85;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 280;
+  animation: progress-3 0.5s ease-out;
+}
+.meter-10 {
+  stroke: #ebd98a;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 280;
+  animation: progress-3 0.5s ease-out;
 }
 .meter-11 {
-  stroke: #70e000;
+  stroke: #ef9aee;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 280;
+  animation: progress-3 0.5s ease-out;
+}
+
+.meter-30 {
+  stroke-dasharray: 360;
+  stroke-dashoffset: 200;
+  stroke: #93ede1;
+  animation: progress-1 1s ease-out;
+}
+.meter-31 {
+  stroke: #b9e989;
   stroke-dasharray: 360;
   stroke-dashoffset: 220;
   animation: progress-2 0.75s ease-out;
 }
-.meter-12 {
-  stroke: #ffb703;
+.meter-32 {
+  stroke: #eecc78;
   stroke-dasharray: 360;
   stroke-dashoffset: 245;
   animation: progress-3 0.5s ease-out;
 }
 
-.meter-13 {
-  stroke: #d90429;
+.meter-33 {
+  stroke: #ec94a3;
   stroke-dasharray: 360;
   stroke-dashoffset: 265;
   animation: progress-3 0.5s ease-out;
 }
 
-.meter-14 {
+.meter-34 {
   stroke: #fee440;
   stroke-dasharray: 360;
   stroke-dashoffset: 220;

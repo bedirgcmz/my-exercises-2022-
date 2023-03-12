@@ -7,25 +7,24 @@
 }
 
 .profile-img {
-  /* background-color: #540b0e; */
   box-shadow: rgb(231 224 224) 0px 2px 4px, rgb(234 227 227) 0px 7px 13px -3px,
     rgb(240 235 235 / 0%) 0px -3px 0px inset;
+}
+.profile-img:hover {
+  transform: scale(1.1);
 }
 .info p {
   font-size: 0.8rem;
 }
 
 .slogan {
-  /* position: absolute;
-  top: 20px;
-  right: 8%; */
   font-family: "Courgette", cursive;
   font-size: 2rem;
 }
 
 .links {
   position: absolute;
-  bottom: -2px;
+  bottom: -7px;
   right: 5%;
 }
 
@@ -36,12 +35,18 @@
   font-size: 0.8rem;
   text-align: center;
   border-radius: 10px 10px 0 0;
-  height: 32px;
+  height: 40px;
   line-height: 35px;
   font-weight: 600;
   margin-left: 24px;
 }
-
+.links a:hover {
+  transform: scale(1.2);
+  color: #9e9e9e;
+}
+.links a:hover .header {
+  background-color: #fff !important;
+}
 /* Header Responsive */
 
 @media only screen and (max-width: 768px) {
@@ -69,6 +74,10 @@
     line-height: 28px;
     margin: 3px;
   }
+  .links a:hover {
+    transform: scale(1.07);
+    color: #9e9e9e;
+  }
   .color-change-container {
     top: 240px !important;
   }
@@ -83,22 +92,26 @@
 .box-blue {
   width: 20px;
   height: 20px;
-  background-color: #003f88;
+  background-color: #a6bb8d;
 }
 .box-brown {
   width: 20px;
   height: 20px;
-  background-color: #540b0e;
+  background-color: #7db9b6;
 }
 .box-orange {
   width: 20px;
   height: 20px;
-  background-color: #ff5400;
+  background-color: #c7bca1;
 }
 .box-purple {
   width: 20px;
   height: 20px;
-  background-color: #5f0f40;
+  background-color: #ecccb2;
+}
+.color-box:hover {
+  transform: scale(1.2);
+  border-radius: 50%;
 }
 .color-change-container {
   position: absolute;
@@ -115,7 +128,6 @@
 /* About me */
 .about-me h2 {
   width: 100%;
-  /* margin-left: auto; */
   margin-top: 15px;
   margin-bottom: 10px;
 }
@@ -133,6 +145,11 @@
   padding: 20px;
   margin-left: auto;
 }
+#about-me-info-container:hover {
+  box-shadow: inset 0px 0px 0px 10px #d5d0d0;
+  border-radius: 105px 0 105px 0;
+}
+
 #about-me-info-container img {
   float: left;
   margin: 0 15px 15px 0;
@@ -155,10 +172,14 @@
 }
 .progress {
   height: 1.5rem !important;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   padding: 0 !important;
   background-color: gray;
   border-radius: 10px;
+}
+.progress:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 0px 10px #00bcd48c;
 }
 .progress-bar {
   border-radius: 10px;
@@ -180,8 +201,6 @@
   height: 70px;
   width: 100%;
   margin-top: 17%;
-  /* position: absolute;
-  bottom: 0; */
 }
 .social-media {
   font-size: 0.7rem;
@@ -219,12 +238,19 @@
 }
 
 /* Skill$Hobbies responsive */
+.skill-and-name:hover {
+  transform: scale(1.2);
+}
+
 @media only screen and (max-width: 768px) {
   .skills-container h2 {
     text-align: center;
   }
   .hobbies-container h2 {
     text-align: center;
+  }
+  .progress-container {
+    width: 50%;
   }
 }
 
@@ -242,6 +268,13 @@
 .education .card {
   background-color: #adacac24 !important;
 }
+.education .card:hover {
+  background-color: #607d8b8c !important;
+  color: white;
+}
+.education-card:hover > .fa-thumbtack {
+  color: #e91e63 !important;
+}
 .education .date {
   border-radius: 10px;
   color: white;
@@ -257,6 +290,13 @@
 }
 .work-experience .card {
   background-color: #adacac24 !important;
+}
+.work-experience-card .card:hover {
+  background-color: #607d8b8c !important;
+  color: white;
+}
+.work-experience-card:hover > .fa-thumbtack {
+  color: #e91e63 !important;
 }
 .work-experience .date {
   border-radius: 10px;

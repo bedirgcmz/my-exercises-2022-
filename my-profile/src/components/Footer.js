@@ -11,7 +11,7 @@ const Footer = ({ bacgroundDark, color }) => {
         </div>
         <div className="email d-flex align-items-center mb-2">
           <i className="fa-solid fa-envelope me-2 "></i>
-          <span>bedir.gocmez@hicoders.ch</span>
+          <span>bdrgcmz@gmail.com</span>
         </div>
         <div className="guthub d-flex align-items-center mb-2">
           <a
